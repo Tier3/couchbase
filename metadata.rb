@@ -1,4 +1,4 @@
-name             "couchbase"
+name             "couchbase_t3n_fork"
 maintainer       "Julian C. Dunn"
 maintainer_email "jdunn@getchef.com"
 license          "MIT"
@@ -14,6 +14,6 @@ end
   depends d
 end
 
-recipe "couchbase::server", "Installs couchbase-server"
-recipe "couchbase::client", "Installs libcouchbase"
-recipe "couchbase::moxi", "Installs moxi-server"
+recipe "couchbase_t3n_fork::server", "Installs couchbase-server"
+recipe "couchbase_t3n_fork::client", "Installs libcouchbase"
+recipe "couchbase_t3n_fork::moxi", "Installs moxi-server"
